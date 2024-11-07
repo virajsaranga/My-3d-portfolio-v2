@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virajsaranga/My-3d-portfolio-v2/static/css/main.66ca82a6.css",
-    "main.js": "/virajsaranga/My-3d-portfolio-v2/static/js/main.63ce5261.js",
+    "main.js": "/virajsaranga/My-3d-portfolio-v2/static/js/main.3bf4f172.js",
     "static/js/102.5a914109.chunk.js": "/virajsaranga/My-3d-portfolio-v2/static/js/102.5a914109.chunk.js",
     "static/js/481.5a08b6d9.chunk.js": "/virajsaranga/My-3d-portfolio-v2/static/js/481.5a08b6d9.chunk.js",
     "static/js/556.678bdff8.chunk.js": "/virajsaranga/My-3d-portfolio-v2/static/js/556.678bdff8.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/Logo.PNG": "/virajsaranga/My-3d-portfolio-v2/static/media/Logo.a6448332140415df5cf2.PNG",
     "index.html": "/virajsaranga/My-3d-portfolio-v2/index.html",
     "main.66ca82a6.css.map": "/virajsaranga/My-3d-portfolio-v2/static/css/main.66ca82a6.css.map",
-    "main.63ce5261.js.map": "/virajsaranga/My-3d-portfolio-v2/static/js/main.63ce5261.js.map",
+    "main.3bf4f172.js.map": "/virajsaranga/My-3d-portfolio-v2/static/js/main.3bf4f172.js.map",
     "102.5a914109.chunk.js.map": "/virajsaranga/My-3d-portfolio-v2/static/js/102.5a914109.chunk.js.map",
     "481.5a08b6d9.chunk.js.map": "/virajsaranga/My-3d-portfolio-v2/static/js/481.5a08b6d9.chunk.js.map",
     "556.678bdff8.chunk.js.map": "/virajsaranga/My-3d-portfolio-v2/static/js/556.678bdff8.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.66ca82a6.css",
-    "static/js/main.63ce5261.js"
+    "static/js/main.3bf4f172.js"
   ]
 }
