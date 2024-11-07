@@ -1,26 +1,25 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { coolDarkTheme } from "./utils/Themes"; // Ensure correct path
 import { BrowserRouter } from "react-router-dom"; // Ensure correct import
 import Navbar from "./components/Navbar"; // Ensure correct import
 
-
-// Lazy load other components
-const Dashboard = lazy(() => import("./components/sections/Dashboard"));
-const ProfilesSection = lazy(() => import("./components/sections/ProfilesSection"));
-const Expirience = lazy(() => import("./components/sections/Expirience"));
-const Skills = lazy(() => import("./components/sections/Skills"));
-const Education = lazy(() => import("./components/sections/Education"));
-const Projects = lazy(() => import("./components/sections/Projects"));
-const Contact = lazy(() => import("./components/sections/Contact"));
-const Footer = lazy(() => import("./components/sections/Footer"));
-const Blogs  = lazy(() => import ('./components/sections/Blogs'));
+// Directly import all components
+import Dashboard from "./components/sections/Dashboard";
+import ProfilesSection from "./components/sections/ProfilesSection";
+import Expirience from "./components/sections/Expirience";
+import Skills from "./components/sections/Skills";
+import Education from "./components/sections/Education";
+import Projects from "./components/sections/Projects";
+import Blogs from "./components/sections/Blogs";
+import Contact from "./components/sections/Contact";
+import Footer from "./components/sections/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
-  position: relative; 
+  position: relative;
 `;
 
 function App() {
@@ -29,17 +28,16 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Dashboard />
-            <ProfilesSection />
-            <Expirience />
-            <Skills />
-            <Education />
-            <Projects />
-            <Blogs />
-            <Contact />
-            <Footer />
-          </Suspense>
+          {/* Render all components directly without lazy loading */}
+          <Dashboard />
+          <ProfilesSection />
+          <Expirience />
+          <Skills />
+          <Education />
+          <Projects />
+          <Blogs />
+          <Contact />
+          <Footer />
         </Body>
       </BrowserRouter>
     </ThemeProvider>
